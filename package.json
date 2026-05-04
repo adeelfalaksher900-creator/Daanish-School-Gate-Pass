@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-pdf-agent",
+  "version": "1.0.0",
+  "description": "A WhatsApp agent that answers queries based on PDF content.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "agent",
+    "pdf",
+    "bot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pdf-parse": "^2.4.5",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.34.7"
+  }
+}
